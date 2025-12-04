@@ -1,7 +1,7 @@
 # Black_Friday_Project
 Project from Alura to train my SQL Skills
 
-
+```
 SELECT COUNT(*) as Qtd, 'Categorias' as Tabela FROM categorias
 UNION ALL
 SELECT COUNT(*) as Qtd, 'Clientes' as Tabela FROM clientes
@@ -15,3 +15,4 @@ UNION ALL
 SELECT COUNT(*) as Qtd, 'Produtos' as Tabela FROM produtos
 UNION ALL
 SELECT COUNT(*) as Qtd, 'Vendas' as Tabela FROM vendas;
+```
